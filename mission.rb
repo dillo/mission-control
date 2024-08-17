@@ -3,7 +3,7 @@
 class Mission
   attr_reader :name, :rocket
 
-  def initialize(name:, rocket:)
+  def initialize(name:, rocket: nil)
     @name = name
     @rocket = rocket
   end
