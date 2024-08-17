@@ -8,4 +8,11 @@ class Game
   def initialize
     puts "Welcome to Mission Control"
   end
+
+  def set_mission_name
+    puts "What is the name of this mission?"
+
+    mission_name = gets.chomp
+    @mission = Mission.new(name: mission_name)
+  end
 end
