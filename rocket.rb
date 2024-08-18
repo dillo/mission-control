@@ -34,12 +34,6 @@ class Rocket
   #
   # @param minutes [Integer] the number of minutes to burn fuel
   # @return [void]
-  # def burn_fuel(minutes)
-  #   fuel_to_burn = @burn_rate * minutes
-  #   @fuel_remaining -= fuel_to_burn
-  #   @total_fuel_burned += fuel_to_burn
-  #   @fuel_remaining = 0 if @fuel_remaining.negative?
-  # end
   def burn_fuel(minutes)
     fuel_to_burn = [@burn_rate * minutes, @fuel_remaining].min
     @fuel_remaining -= fuel_to_burn

@@ -15,6 +15,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    yard (0.9.36)
 
 PLATFORMS
   arm64-darwin-23
@@ -22,6 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   rspec (~> 3.4.0)
+  yard
 
 BUNDLED WITH
    2.5.17
